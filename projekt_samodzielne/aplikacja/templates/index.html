@@ -1,0 +1,7 @@
+{% for i in dane_z_modelu %}
+    obiekt: {{i}}
+    tekst: {{i.tekst}}
+    liczba: {{i.liczba}}
+    klucz obcy: {{i.klucz_obc}}
+    klucz obcy wartość: {{i.klucz_obc.klucz}}
+{% endfor %}
